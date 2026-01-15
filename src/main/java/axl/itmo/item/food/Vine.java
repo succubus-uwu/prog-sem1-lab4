@@ -7,6 +7,8 @@ import java.util.Objects;
 
 public final class Vine implements Food, Pickable {
 
+    private final long id = System.nanoTime();
+
     private boolean isOnVine;
 
     private @NotNull GrapeType type;
@@ -83,6 +85,6 @@ public final class Vine implements Food, Pickable {
 
     @Override
     public int hashCode() {
-        return Objects.hash(isOnVine, type);
+        return Objects.hashCode(id);
     }
 }

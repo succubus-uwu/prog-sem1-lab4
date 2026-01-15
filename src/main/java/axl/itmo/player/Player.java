@@ -54,6 +54,11 @@ public class Player {
 
     @Override
     public int hashCode() {
-        return Objects.hash(items, health);
+        return Objects.hash(items);
+    }
+
+    @Override
+    public String toString() {
+        return "Персонаж";
     }
 }
