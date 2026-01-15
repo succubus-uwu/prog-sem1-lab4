@@ -55,13 +55,6 @@ public class GameMachine {
         System.out.println(weather + " погода.");
         System.out.println(date + " день. ");
 
-        for (Place place : places) {
-            switch (weather) {
-                case SUNNY -> place.sun();
-                case RAINY -> place.rain();
-            }
-        }
-
         for (Rule rule : rules) {
             if (rule.effect(this))
                 return false;

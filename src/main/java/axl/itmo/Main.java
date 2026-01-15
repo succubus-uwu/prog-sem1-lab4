@@ -5,6 +5,7 @@ import axl.itmo.place.Vineyard;
 import axl.itmo.player.Player;
 import axl.itmo.rule.actions.CollectVineAction;
 import axl.itmo.rule.actions.EatAction;
+import axl.itmo.rule.actions.WeatherAction;
 import axl.itmo.rule.ending.HealthEnding;
 import axl.itmo.rule.ending.PurveyanceEnding;
 
@@ -32,6 +33,7 @@ public class Main {
                         add(new PurveyanceEnding());
 
                         add(new CollectVineAction());
+                        add(new WeatherAction());
                     }}
             );
 
