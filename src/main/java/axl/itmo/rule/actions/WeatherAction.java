@@ -1,11 +1,7 @@
 package axl.itmo.rule.actions;
 
 import axl.itmo.GameMachine;
-import axl.itmo.Weather;
-import axl.itmo.item.food.Vine;
 import axl.itmo.place.Place;
-import axl.itmo.place.Vineyard;
-import axl.itmo.player.Player;
 import axl.itmo.rule.Rule;
 import org.jetbrains.annotations.NotNull;
 
